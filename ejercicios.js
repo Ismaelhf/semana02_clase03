@@ -9,3 +9,11 @@ const pushString = (cadena, letra) =>{
 }
 
 pushString('hola mund','o');
+
+
+const addArray = (array, array2) =>{
+    array.push(array2);
+    console.log(array);
+}
+
+addArray(['ismael','fredy'], 'carlos');
